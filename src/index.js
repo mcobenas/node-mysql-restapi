@@ -1,3 +1,7 @@
-import './config.js'
+import '../config.js'
 
-console.log('hola')
+function main(){
+    console.log('hola')
+}
+
+main()
