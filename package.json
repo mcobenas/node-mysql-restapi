@@ -1,7 +1,6 @@
 {
   "name": "mysql-restapi",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -12,5 +11,15 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcobenas/node-mysql-restapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mcobenas/node-mysql-restapi/issues"
+  },
+  "homepage": "https://github.com/mcobenas/node-mysql-restapi#readme",
+  "description": ""
 }
