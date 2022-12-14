@@ -9,6 +9,7 @@ export const DB_DATABASE=process.env.DB_DATABASE||'rentas'
 export const DB_PORT=process.env.DB_PORT||3306
 
 
+
 /*
 console.log(process.env.PORT)
 console.log(process.env.DB_HOST)
