@@ -1,7 +1,14 @@
+import express  from 'express'
 import '../config.js'
 
-function main(){
-    console.log('hola')
-}
+const app= express()
 
-main()
+app.get('/empleados',(req,res)=> res.send('obteniendo empleados'))
+app.post('/empleados',(req,res)=> res.send('creando empleados'))
+app.put('/empleados',(req,res)=> res.send('actualizando empleados'))
+app.delete('/empleados',(req,res)=> res.send('eliminando empleados'))
+
+app.listen(4000)
+
+console.log('server en puerto 4000')
+
